@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York - Travel Destinations</title>
+</head>
+<body>
+    <header>
+        <h1>New York</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="paris.html">Paris</a></li>
+                <li><a href="newyork.html">New York</a></li>
+                <li><a href="tokyo.html">Tokyo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About New York</h2>
+            <p>New York City is known for its skyscrapers, Broadway shows, and bustling city life.</p>
+            <img src="./images/newyork.avif" alt="Statue of Liberty in New York" width="400" usemap="#image-map">
+            <map name="image-map">
+                <area target="_blank" alt="Statue of Liberty" title="Statue of Liberty" href="https://en.wikipedia.org/wiki/Statue_of_Liberty" coords="308.49,2.86,389.87,224.25" shape="rect">
+            </map>
+            <h2>Famous Landmarks</h2>
+            <ul>
+                <li>Statue of Liberty</li>
+                <li>Central Park</li>
+                <li>Times Square</li>
+            </ul>
+            <h2>Best Time to Visit</h2>
+            <p>Spring (April to June) and Fall (September to November) are the best times to visit New York.</p>
+            <h2>Travel Tips</h2>
+            <p>Use the subway and wear comfortable shoes for walking.</p>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                <label for="color">Favorite Color:</label><br>
+                <input type="color" id="color" name="color"><br>
+                <label for="destination">Preferred Destination:</label><br>
+                <select id="destination" name="destination" required>
+                    <option value="" disabled selected>Select your destination</option>
+                    <option value="paris">Paris</option>
+                    <option value="newyork">New York</option>
+                    <option value="tokyo">Tokyo</option>
+                </select><br>
+                <label>Travel Preferences:</label><br>
+                <input type="checkbox" id="adventure" name="preference" value="adventure">
+                <label for="adventure">Adventure</label><br>
+                <input type="checkbox" id="relaxation" name="preference" value="relaxation">
+                <label for="relaxation">Relaxation</label><br>
+                <label>Newsletter Subscription:</label><br>
+                <input type="radio" id="subscribe" name="newsletter" value="subscribe" required>
+                <label for="subscribe">Subscribe</label><br>
+                <input type="radio" id="unsubscribe" name="newsletter" value="unsubscribe" required>
+                <label for="unsubscribe">Unsubscribe</label><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            <h2>Travel Statistics</h2>
+            <table border="1">
+                <tr>
+                    <th rowspan="2">Landmark</th>
+                    <th colspan="2">Details</th>
+                </tr>
+                <tr>
+                    <th>Visitors per Year</th>
+                    <th>Best Time to Visit</th>
+                </tr>
+                <tr>
+                    <td>Statue of Liberty</td>
+                    <td>4 million</td>
+                    <td>April to June</td>
+                </tr>
+                <tr>
+                    <td>Central Park</td>
+                    <td>42 million</td>
+                    <td>April to June</td>
+                </tr>
+                <tr>
+                    <td>Times Square</td>
+                    <td>50 million</td>
+                    <td>April to June</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Travel Destinations</p>
+    </footer>
+</body>
+</html>
